@@ -37,7 +37,16 @@ body {
 
 .barraNavegacion a{
     text-decoration: none;
-    color: black;}
+    color: black;
+    background-image: linear-gradient(rgb(72, 72, 135), rgba(150, 66, 66, 0.689));
+    width: 150px;
+    height: 150px;
+    transition: all 1s;
+}
+.barraNavegacion__li:hover{
+    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    transform:scale(1)
+}
 
 .barraNavegacion__li{
     display: inline-block;
@@ -45,7 +54,7 @@ body {
     margin:1.875rem;
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;}
+    font-size: 150%;}
 
 /*main*/
 main{
