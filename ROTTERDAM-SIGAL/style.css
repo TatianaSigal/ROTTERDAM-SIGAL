@@ -81,7 +81,7 @@ main{
   animation-iteration-count: infinite;
 }
 @keyframes iluminarBienvenidos {
-    from {background-color: rgba(72, 72, 135, 0.497);}
+    from {background-color: rgba(68, 68, 127, 0.497);}
     to {background-color: rgba(84, 86, 135, 0.18);}
 }
 /* footer */
