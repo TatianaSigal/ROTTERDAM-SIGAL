@@ -72,8 +72,18 @@ main{
     color: aliceblue;
     text-align: center;
     position: absolute;
-    top: 300px;}
-
+    top: 300px;
+    transform:scale(1.3,1.4);
+    
+  background-color:rgba(50, 50, 83, 0.322);
+  animation-name: iluminarBienvenidos;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes iluminarBienvenidos {
+    from {background-color: rgba(72, 72, 135, 0.497);}
+    to {background-color: rgba(84, 86, 135, 0.18);}
+}
 /* footer */
 footer{
     display: flex;
