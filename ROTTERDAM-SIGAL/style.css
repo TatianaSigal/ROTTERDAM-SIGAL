@@ -111,38 +111,14 @@ footer{
     
      
  /*contacto*/
+
+     section{
+        height: 500px;
+        background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
+    }    
+    
+    
      
-     .contacto{
-         height: 150vh;
-         background-color: rgba(184, 176, 161, 0.472);
-         background-image: url(./imagenes/img\ backround.jpg);
-         background-repeat: no-repeat;
-         background-position-x: left;
-        }
-    .contacto__titulo{
-        height: 50%;
-        width: 50%;
-        position: relative;
-        color: black;
-        text-align: center;
-        left: 45%;
-    }
-     .contacto-forma__input{
-        position: relative;
-        top: 3.125rem;
-        margin-left: 20%;
-        
-       
-     }
-     .dejamensaje{
-         resize: none;
-     }
-     
-     .mapa{
-        max-width: 100%;
-        height: auto;
-        margin-left: -10%;
-     }
      /* reservas*/
      .reservas{
         height: 150vh;
@@ -329,7 +305,6 @@ margin: 0;
 
 
 }
-    
     
 
  
