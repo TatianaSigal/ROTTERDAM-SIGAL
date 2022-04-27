@@ -1,0 +1,337 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+/*body*/
+body {
+    font-family: 'Coda', cursive;}
+
+/*header*/
+.header{
+    background-color: rgb(55, 55, 129);
+    display: grid;     
+    grid-template-columns: 1fr 2fr;
+    justify-content: right;
+    justify-content: space-around;
+    align-items: center;}
+
+.logoGeneral{
+    height: 12.5rem;
+    width: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 80%;
+    background-size: 80% auto;
+    position:relative;}
+
+.barraNavegacion{
+    list-style: none;
+
+    
+}
+
+.barraNavegacion a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(rgb(72, 72, 135), rgba(150, 66, 66, 0.689));
+    width: 150px;
+    height: 150px;
+    transition: all 1s;
+}
+.barraNavegacion__li:hover{
+    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    transform:scale(1)
+}
+
+.barraNavegacion__li{
+    display: inline-block;
+    padding: 0.625rem;
+    margin:1.875rem;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;}
+
+/*main*/
+main{
+    display:flex;
+    justify-content:center;}
+
+.fondo{
+    height: 150vh;
+    background-image: url(./imagenes/img\ backround.jpg);}
+
+
+.bienvenidos{
+    /*tuki listo para mergear*/
+    font-size: 450%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    transform:scale(1.3,1.4);
+    
+  background-color:rgba(50, 50, 83, 0.322);
+  animation-name: iluminarBienvenidos;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes iluminarBienvenidos {
+    from {background-color: rgba(68, 68, 127, 0.497);}
+    to {background-color: rgba(84, 86, 135, 0.18);}
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5%;
+    margin: 0%;
+    background-color: rgba(71, 58, 6, 0.736);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+ div{
+   width: 30%;}
+
+.lifooter {
+    display: flex;
+    align-items:flex-end;
+    list-style:none ;
+    justify-content: flex-end;}
+   
+.lifooter a {
+    margin: 0.625rem;
+    width: 3.125rem;}
+
+ .lifooter img{
+     width: 3.125rem;}
+    
+     
+ /*contacto*/
+     
+     .contacto{
+         height: 150vh;
+         background-color: rgba(184, 176, 161, 0.472);
+         background-image: url(./imagenes/img\ backround.jpg);
+         background-repeat: no-repeat;
+         background-position-x: left;
+        }
+    .contacto__titulo{
+        height: 50%;
+        width: 50%;
+        position: relative;
+        color: black;
+        text-align: center;
+        left: 45%;
+    }
+     .contacto-forma__input{
+        position: relative;
+        top: 3.125rem;
+        margin-left: 20%;
+        
+       
+     }
+     .dejamensaje{
+         resize: none;
+     }
+     
+     .mapa{
+        max-width: 100%;
+        height: auto;
+        margin-left: -10%;
+     }
+     /* reservas*/
+     .reservas{
+        height: 150vh;
+        background-color: rgba(184, 176, 161, 0.472);
+        background-image: url(./imagenes/img\ backround.jpg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        
+     }
+     .reservas__lista{
+        position: relative;
+        margin-right: 70%;
+       
+     }
+   
+ 
+/*galeria*/
+
+.galeriaimg {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(2 15rem) ;
+gap: 1rem;
+align-items: center;
+background-color:rgba(184, 176, 161, 0.472) ;
+width: 100% ;
+margin: 0;
+}
+     
+.foto{
+    width: 25rem;
+    height: 35rem;
+}
+
+
+     
+/*menu*/
+    main img {
+ width:100%;
+ height: 100vw;
+ padding: 1.25rem;
+}
+.menu{
+    overflow-x: scroll;
+    height: 31.25rem;
+    width: 31.25rem;
+    display: inline;
+    position: relative;
+    
+}
+
+    
+@media only screen and (max-width:1024px){
+    .fondo{
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header{
+        display: grid;     
+        grid-template-columns: 1fr 2fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .barraNavegacion__li {
+        font-size: 2.438rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+    }
+
+    .footer{
+        padding:1.25rem;
+        justify-content: center;
+
+    }
+    .direccionHorario {  
+        text-align: center;
+        
+    }
+
+    .pDireccion{
+        text-align: center;
+    }
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2 15rem) ;}
+    
+}  
+
+@media only screen and (max-width:768px){
+    .header{
+    
+        display: grid;     
+        grid-template-columns: 1fr 3fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer{
+        padding: 1.25rem;
+        justify-content: center;
+
+    }
+    .barraNavegacion__li {
+        font-size: 1.938rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+        
+    }
+    .fondo{
+        background-position: center; 
+        height: 45.624rem;
+    }
+    .direccionHorario {  
+        font-size:1.313rem;
+        width: 12.5rem;
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .galeriaimg{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:repeat(3 2fr);   
+        }
+
+    
+
+        
+        }
+
+
+
+  
+@media only screen and (max-width:480px){
+    .fondo{
+        background-position: center; 
+        
+    }   
+  
+    img.logoGeneral{
+        width:8.125rem;
+        height:8.125rem;
+    }
+    .barraNavegacion{
+        margin-right: 0.75rem;
+    }
+    .barraNavegacion__li {
+        font-size: 1.313rem;
+        padding: 0.188rem;
+        margin: 0.188rem;
+        display: block;
+    }
+    .bienvenidos{
+        font-size: 2.125rem;
+        margin-top: 1rem;
+    }
+    .footer{
+        flex-direction: column;
+        
+    }
+    .direccionHorario {  
+        font-size: 0.938rem;
+        
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .pDireccion{
+        display: block;
+        text-align: center;
+    }
+
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3 2fr);
+        padding-left: 20px;
+
+    }
+
+
+
+}
+    
+    
+
+ 
+
+    
