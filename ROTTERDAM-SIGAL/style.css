@@ -117,9 +117,15 @@ footer{
       background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
     }
 
+    .ratio-4x3 {
+        @include media-breakpoint-up(md) {
+          --bs-aspect-ratio: 50%; // 2x1
+        }
+      }
+      .form-group{
+        color: whitesmoke;
+      }
 
-    
-     
      /* reservas*/
      .reservas{
         height: 150vh;
