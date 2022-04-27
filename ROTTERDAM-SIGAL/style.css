@@ -12,13 +12,9 @@ body {
     font-family: 'Coda', cursive;}
 
 /*header*/
-.header{
-    background-color: rgb(55, 55, 129);
-    display: grid;     
-    grid-template-columns: 1fr 2fr;
-    justify-content: right;
-    justify-content: space-around;
-    align-items: center;}
+header{
+    background-color: rgb(55, 55, 129);}
+    
 
 .logoGeneral{
     height: 12.5rem;
@@ -28,14 +24,20 @@ body {
     border-radius: 80%;
     background-size: 80% auto;
     position:relative;}
-
+    
+    .nav-link{
+        background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+        font-size:24px;
+        justify-self: flex-end;
+    }
+/*
 .barraNavegacion{
     list-style: none;
 
     
 }
 
-.barraNavegacion a{
+.nav-link a{
     text-decoration: none;
     color: black;
     background-image: linear-gradient(rgb(72, 72, 135), rgba(150, 66, 66, 0.689));
@@ -43,7 +45,7 @@ body {
     height: 150px;
     transition: all 1s;
 }
-.barraNavegacion__li:hover{
+.nav-link__li:hover{
     background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
     transform:scale(1)
 }
@@ -54,7 +56,7 @@ body {
     margin:1.875rem;
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;}
+    font-size: 150%;}*/
 
 /*main*/
 main{
