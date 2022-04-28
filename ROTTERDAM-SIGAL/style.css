@@ -150,20 +150,24 @@ footer{
             }
 
      /* reservas*/
-     .reservas{
-        height: 150vh;
-        background-color: rgba(184, 176, 161, 0.472);
-        background-image: url(./imagenes/img\ backround.jpg);
-        background-repeat: no-repeat;
-        background-position-x: right;
+     .container-fluid__reservas{
+        background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
+       
+
+     }
+     .fotocarr{
+        height:350px;
+        width:450px;
         
      }
-     .reservas__lista{
-        position: relative;
-        margin-right: 70%;
-       
+     .carrousel__contenedor{
+         
+         margin-top: 20%;
+         left: 40%;
      }
-   
+     .carrousel-item img{
+         height: 800px;
+     }   
  
 /*galeria*/
 
