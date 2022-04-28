@@ -17,16 +17,33 @@
 <body >
     
     <header class="header">
-        <img src="../imagenes/logo.jpg" alt="logo de la cerveceria " class="logoGeneral">
-        <nav>
-            <ul class="barraNavegacion">
-                <li class="barraNavegacion__li"><a href="../index.html" >Inicio</a></li>
-                <li class="barraNavegacion__li"><a href="../paginas/galeria.html"> Galeria </a></li>
-                <li class="barraNavegacion__li"><a href="../paginas/menu.html"> Menu </a></li>
-                <li class="barraNavegacion__li"><a href="../paginas/reservas.html">Reservas</a></li>
-                <li class="barraNavegacion__li"><a href="#"> Contacto </a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/"><img src="../imagenes/logo.jpg" alt="logo de la cerveceria " class="logoGeneral"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/menu.html">Menú</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/reservas.html">Reservas </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="../paginas/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
         <h1 class=" contactate text-center my-5 md-70 sm-w-50">CONTACTATE CON NOSOTROS</h1>
     <section class="container-fluid ">
