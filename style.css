@@ -12,13 +12,9 @@ body {
     font-family: 'Coda', cursive;}
 
 /*header*/
-.header{
-    background-color: rgb(55, 55, 129);
-    display: grid;     
-    grid-template-columns: 1fr 2fr;
-    justify-content: right;
-    justify-content: space-around;
-    align-items: center;}
+header{
+    background-color: rgb(55, 55, 129);}
+    
 
 .logoGeneral{
     height: 12.5rem;
@@ -28,14 +24,25 @@ body {
     border-radius: 80%;
     background-size: 80% auto;
     position:relative;}
-
+    
+    .nav-link{
+        background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+        font-size:24px;
+        
+    }
+        
+    header .navbar-nav{
+        margin-left: auto;
+    }
+    
+/*
 .barraNavegacion{
     list-style: none;
 
     
 }
 
-.barraNavegacion a{
+.nav-link a{
     text-decoration: none;
     color: black;
     background-image: linear-gradient(rgb(72, 72, 135), rgba(150, 66, 66, 0.689));
@@ -43,7 +50,7 @@ body {
     height: 150px;
     transition: all 1s;
 }
-.barraNavegacion__li:hover{
+.nav-link__li:hover{
     background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
     transform:scale(1)
 }
@@ -54,7 +61,7 @@ body {
     margin:1.875rem;
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;}
+    font-size: 150%;}*/
 
 /*main*/
 main{
@@ -68,10 +75,10 @@ main{
 
 .bienvenidos{
     /*tuki listo para mergear*/
-    font-size: 450%;
+    font-size: 300%;
     color: aliceblue;
     text-align: center;
-    position: absolute;
+    position:absolute;
     top: 300px;
     transform:scale(1.3,1.4);
     
@@ -84,6 +91,8 @@ main{
     from {background-color: rgba(68, 68, 127, 0.497);}
     to {background-color: rgba(84, 86, 135, 0.18);}
 }
+
+
 /* footer */
 footer{
     display: flex;
@@ -116,25 +125,49 @@ footer{
         height: 900px;
       background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
     }
-
-
+    .ratio-4x3 {
+        @include media-breakpoint-up(md) {
+          --bs-aspect-ratio: 50%; // 2x1
+        }
+      }
+  
+      .form-group{
+        color: whitesmoke;
+             }
+             .contactate{
     
-     
+                transform:scale(1.3,1.4);
+                
+              background-color:rgba(50, 50, 83, 0.322);
+              animation-name: iluminarBienvenidos;
+              animation-duration:4s;
+              animation-iteration-count: infinite;
+            
+            }
+            @keyframes iluminarcontactate {
+                from {background-color: rgba(68, 68, 127, 0.497);}
+                to {background-color: rgba(84, 86, 135, 0.18);}
+            }
+
      /* reservas*/
-     .reservas{
-        height: 150vh;
-        background-color: rgba(184, 176, 161, 0.472);
-        background-image: url(./imagenes/img\ backround.jpg);
-        background-repeat: no-repeat;
-        background-position-x: right;
+     .container-fluid__reservas{
+        background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
+       
+
+     }
+     .fotocarr{
+        height:350px;
+        width:450px;
         
      }
-     .reservas__lista{
-        position: relative;
-        margin-right: 70%;
-       
+     .carrousel__contenedor{
+         
+         margin-top: 20%;
+         left: 40%;
      }
-   
+     .carrousel-item img{
+         height: 800px;
+     }   
  
 /*galeria*/
 
