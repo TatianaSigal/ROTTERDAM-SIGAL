@@ -8,12 +8,14 @@
 }
 
 /*body*/
-body {
-    font-family: 'Coda', cursive;}
+body{
+    font-family: 'Coda', cursive;
+}
 
 /*header*/
 header{
-    background-color: rgb(55, 55, 129);}
+    background-color: rgb(55, 55, 129);
+}
     
 
 .logoGeneral{
@@ -23,17 +25,17 @@ header{
     background-position: 50%;
     border-radius: 80%;
     background-size: 80% auto;
-    position:relative;}
+    position:relative;
+}
     
-    .nav-link{
-        background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
-        font-size:24px;
+.nav-link{
+    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    font-size:24px;     
+}
         
-    }
-        
-    header .navbar-nav{
-        margin-left: auto;
-    }
+header .navbar-nav{
+    margin-left: auto;
+}
     
 /*
 .barraNavegacion{
@@ -66,11 +68,13 @@ header{
 /*main*/
 main{
     display:flex;
-    justify-content:center;}
+    justify-content:center;
+}
 
 .fondo{
     height: 150vh;
-    background-image: url(./imagenes/img\ backround.jpg);}
+    background-image: url(./imagenes/img\ backround.jpg);
+}
 
 
 .bienvenidos{
@@ -82,10 +86,10 @@ main{
     top: 300px;
     transform:scale(1.3,1.4);
     
-  background-color:rgba(50, 50, 83, 0.322);
-  animation-name: iluminarBienvenidos;
-  animation-duration:4s;
-  animation-iteration-count: infinite;
+   background-color:rgba(50, 50, 83, 0.322);
+   animation-name: iluminarBienvenidos;
+   animation-duration:4s;
+   animation-iteration-count: infinite;
 }
 @keyframes iluminarBienvenidos {
     from {background-color: rgba(68, 68, 127, 0.497);}
@@ -101,73 +105,75 @@ footer{
     padding:5%;
     margin: 0%;
     background-color: rgba(71, 58, 6, 0.736);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;}
- div{
-   width: 30%;}
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+   width: 30%;
+}
 
 .lifooter {
     display: flex;
     align-items:flex-end;
     list-style:none ;
-    justify-content: flex-end;}
+    justify-content: flex-end;
+}
    
 .lifooter a {
     margin: 0.625rem;
-    width: 3.125rem;}
+    width: 3.125rem;
+}
 
- .lifooter img{
-     width: 3.125rem;}
-    
+.lifooter img{
+     width: 3.125rem;
+}
+
      
  /*contacto*/
-
-     section{
-        height: 900px;
-      background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
-    }
-    .ratio-4x3 {
-        @include media-breakpoint-up(md) {
-          --bs-aspect-ratio: 50%; // 2x1
+section{
+    height: 900px;
+    background-image: url(./imagenes/img\ backround.jpg);
+}
+.ratio-4x3 {
+    @include media-breakpoint-up(md) {
+        --bs-aspect-ratio: 50%; // 2x1
         }
-      }
-  
-      .form-group{
-        color: whitesmoke;
-             }
-             .contactate{
+}
+
+.form-group{
+    color: whitesmoke;
+}
+.contactate{
+    transform:scale(1,1.4);
+    background-color:rgba(50, 50, 83, 0.322);
+    animation-name: iluminarBienvenidos;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
     
-                transform:scale(1.3,1.4);
-                
-              background-color:rgba(50, 50, 83, 0.322);
-              animation-name: iluminarBienvenidos;
-              animation-duration:4s;
-              animation-iteration-count: infinite;
-            
-            }
-            @keyframes iluminarcontactate {
-                from {background-color: rgba(68, 68, 127, 0.497);}
-                to {background-color: rgba(84, 86, 135, 0.18);}
-            }
+}
+@keyframes iluminarcontactate {
+    from {background-color: rgba(68, 68, 127, 0.497);}
+    to {background-color: rgba(84, 86, 135, 0.18);}
+}
 
-     /* reservas*/
-     .container-fluid__reservas{
-        background-image: url(../ROTTERDAM-SIGAL/imagenes/img\ backround.jpg);
-       
-
-     }
-     .fotocarr{
-        height:350px;
-        width:450px;
-        
-     }
-     .carrousel__contenedor{
-         
-         margin-top: 20%;
-         left: 40%;
-     }
-     .carrousel-item img{
-         height: 800px;
-     }   
+/* reservas*/
+.container-fluid__reservas{
+    background-image: url(./imagenes/img\ backround.jpg);
+    background-repeat: no-repeat;
+}
+     
+.fotocarr{
+    height:350px;
+    width:450px;
+}
+.carrousel__contenedor{
+    margin-top: 20%;
+    left: 40%;
+}
+     
+.carrousel-item img{
+    height: 800px;
+}   
  
 /*galeria*/
 
@@ -190,10 +196,10 @@ margin: 0;
 
      
 /*menu*/
-    main img {
- width:100%;
- height: 100vw;
- padding: 1.25rem;
+main img {
+    width:100%;
+    height: 100vw;
+    padding: 1.25rem;
 }
 .menu{
     overflow-x: scroll;
@@ -280,11 +286,7 @@ margin: 0;
             grid-template-columns: 1fr;
             grid-template-rows:repeat(3 2fr);   
         }
-
-    
-
-        
-        }
+}
 
 
 
@@ -313,12 +315,10 @@ margin: 0;
         margin-top: 1rem;
     }
     .footer{
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     .direccionHorario {  
         font-size: 0.938rem;
-        
         text-align: center;
         margin: 0.625rem;  
     }
@@ -333,14 +333,9 @@ margin: 0;
         grid-template-columns: 1fr;
         grid-template-rows:repeat(3 2fr);
         padding-left: 20px;
-
     }
-
-
-
-}
-    
+   
 
  
 
-    
+}
