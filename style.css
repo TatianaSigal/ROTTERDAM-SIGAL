@@ -10,11 +10,13 @@
 /*body*/
 body{
     font-family: 'Coda', cursive;
+    
 }
 
 /*header*/
 header{
     background-color: rgb(55, 55, 129);
+    z-index: 50;
 }
     
 
@@ -84,7 +86,7 @@ main{
     text-align: center;
     position:absolute;
     top: 300px;
-    transform:scale(1.3,1.4);
+  
     
    background-color:rgba(50, 50, 83, 0.322);
    animation-name: iluminarBienvenidos;
@@ -170,11 +172,13 @@ section{
     margin-top: 20%;
     left: 40%;
 }
-     
+
 .carrousel-item img{
     height: 800px;
 }   
- 
+.festejos{
+    background-color: rgb(55, 55, 129);
+}
 /*galeria*/
 
 .galeriaimg {
@@ -210,7 +214,7 @@ main img {
     
 }
 
-    
+
 @media only screen and (max-width:1024px){
     .fondo{
         background-position: center; 
@@ -334,7 +338,11 @@ main img {
         grid-template-rows:repeat(3 2fr);
         padding-left: 20px;
     }
-   
+    .carousel-inner{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 15rem;
+    }
 
  
 
