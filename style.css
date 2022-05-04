@@ -10,12 +10,14 @@
 /*body*/
 body{
     font-family: 'Coda', cursive;
+   
     
 }
 
 /*header*/
 header{
-    background-color: rgb(55, 55, 129);
+    background-color: rgba(55, 55, 129);
+    
     z-index: 50;
 }
     
@@ -38,6 +40,7 @@ header{
 header .navbar-nav{
     margin-left: auto;
 }
+
     
 /*
 .barraNavegacion{
@@ -54,6 +57,7 @@ header .navbar-nav{
     height: 150px;
     transition: all 1s;
 }
+
 .nav-link__li:hover{
     background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
     transform:scale(1)
@@ -81,10 +85,10 @@ main{
 
 .bienvenidos{
     /*tuki listo para mergear*/
-    font-size: 300%;
+    font-size: 400%;
     color: aliceblue;
     text-align: center;
-    top: 300px;
+    margin-bottom: 30%;
     background-color:rgba(50, 50, 83, 0.322);
     animation-name: iluminarBienvenidos;
     animation-duration:4s;
@@ -156,9 +160,8 @@ section{
 }
 
 /* reservas*/
-.container-fluid__reservas{
-    background-image: url(./imagenes/img\ backround.jpg);
-    background-repeat: no-repeat;
+.contenedorCarrousel{
+    background-color:rgba(68, 68, 127, 0.497) ;
 }
      
 /*.fotocarr{
@@ -188,9 +191,7 @@ section{
      width: 100vh;
  }
 
-.festejos{
-    background-color: rgb(55, 55, 129);
-}
+
 /*galeria*/
 
 .galeriaimg {
@@ -199,7 +200,7 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: repeat(2 15rem) ;
 gap: 1rem;
 align-items: center;
-background-color:rgba(184, 176, 161, 0.472) ;
+background-image: url(./imagenes/img\ galeria\ 2.jpg) ;
 width: 100% ;
 margin: 0;
 }
@@ -216,6 +217,7 @@ main img {
     width:100%;
     height: 100vw;
     padding: 1.25rem;
+    background-color:rgba(68, 68, 127, 0.497) ;
 }
 .menu{
     overflow-x: scroll;
