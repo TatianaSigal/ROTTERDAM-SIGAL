@@ -41,37 +41,6 @@ header .navbar-nav{
     margin-left: auto;
 }
 
-    
-/*
-.barraNavegacion{
-    list-style: none;
-
-    
-}
-
-.nav-link a{
-    text-decoration: none;
-    color: black;
-    background-image: linear-gradient(rgb(72, 72, 135), rgba(150, 66, 66, 0.689));
-    width: 150px;
-    height: 150px;
-    transition: all 1s;
-}
-
-.nav-link__li:hover{
-    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
-    transform:scale(1)
-}
-
-.barraNavegacion__li{
-    display: inline-block;
-    padding: 0.625rem;
-    margin:1.875rem;
-    position: relative;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;}*/
-
-/*main*/
 main{
     display:flex;
     justify-content:center;
@@ -111,11 +80,7 @@ footer{
     background-color: rgba(71, 58, 6, 0.736);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-/*
-div{
-   width: 30%;
-}
-*/
+
 .lifooter {
     display: flex;
     align-items:flex-end;
@@ -135,7 +100,6 @@ div{
      
  /*contacto*/
 section{
-    /*height: 900px;*/
     background-image: url(./imagenes/img\ backround.jpg);
 }
 .ratio-4x3 {
@@ -166,18 +130,6 @@ section{
     background-color:rgba(68, 68, 127, 0.497) ;
 }
      
-/*.fotocarr{
-    height:350px;
-    width:450px;
-}
-.carrousel__contenedor{
-    margin-top: 20%;
-    left: 40%;
-}
-
-.carrousel-item img{
-    height: 800px;
-}  */ 
 .carousel__div{
     display: flex;
     justify-content: center;
