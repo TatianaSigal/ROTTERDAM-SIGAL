@@ -102,11 +102,7 @@ footer{
  
 
     section{
-<<<<<<< HEAD
-    height: 900px;
-=======
     
->>>>>>> bootstrap
     background-image: url(./imagenes/img\ backround.jpg)
     }
     .ratio-4x3 {
@@ -114,24 +110,6 @@ footer{
           --bs-aspect-ratio: 50%; // 2x1
         }
       }
-<<<<<<< HEAD
-  
-      
-             .contactate{
-    
-                transform:scale(1.3,1.4);
-                
-              background-color:rgba(50, 50, 83, 0.322);
-              animation-name: iluminarBienvenidos;
-              animation-duration:4s;
-              animation-iteration-count: infinite;
-            
-            }
-            @keyframes iluminarcontactate {
-                from {background-color: rgba(68, 68, 127, 0.497);}
-                to {background-color: rgba(84, 86, 135, 0.18);}
-            }
-=======
       .contactate{
         font-family: 'Ruslan Display', cursive;
         color: rgb(43, 56, 66);
@@ -168,7 +146,6 @@ footer{
     background-size:cover;
      width: 100vh;
  }
->>>>>>> bootstrap
 
 
 /*galeria*/
