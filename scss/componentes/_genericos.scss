@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+body{
+    font-family: 'Coda', cursive;
+   
+    
+}
+
+header{
+    background-color:$color-principal;
+    
+    z-index: 50;
+}
+    
+
+.logoGeneral{
+    height: 12.5rem;
+    width: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 80%;
+    background-size: 80% auto;
+    position:relative;
+}
+    
+.nav-link{
+    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    font-size:24px;     
+}
+        
+header .navbar-nav{
+    margin-left: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5%;
+    margin: 0%;
+    background-color: $color-secundario;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lifooter {
+    display: flex;
+    align-items:flex-end;
+    list-style:none ;
+    justify-content: flex-end;
+}
+   
+.lifooter a {
+    margin: 0.625rem;
+    width: 3.125rem;
+}
+
+.lifooter img{
+     width: 3.125rem;
+}

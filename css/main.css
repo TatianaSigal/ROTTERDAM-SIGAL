@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: 'Coda', cursive;
+}
+
+header {
+  background-color: #373781;
+  z-index: 50;
+}
+
+.logoGeneral {
+  height: 12.5rem;
+  width: 12.5rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 80%;
+  background-size: 80% auto;
+  position: relative;
+}
+
+.nav-link {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#656559), to(rgba(38, 25, 86, 0.361)));
+  background-image: linear-gradient(#656559, rgba(38, 25, 86, 0.361));
+  font-size: 24px;
+}
+
+header .navbar-nav {
+  margin-left: auto;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+  margin: 0%;
+  background-color: rgba(71, 58, 6, 0.736);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lifooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.lifooter a {
+  margin: 0.625rem;
+  width: 3.125rem;
+}
+
+.lifooter img {
+  width: 3.125rem;
+}
+
+.bienvenidos {
+  /*tuki listo para mergear*/
+  font-size: 400%;
+  font-family: 'Ruslan Display', cursive;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 30%;
+  background-color: rgba(50, 50, 83, 0.322);
+  -webkit-animation-name: iluminarBienvenidos;
+          animation-name: iluminarBienvenidos;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes iluminarBienvenidos {
+  from {
+    background-color: rgba(68, 68, 127, 0.497);
+  }
+  to {
+    background-color: rgba(84, 86, 135, 0.18);
+  }
+}
+
+@keyframes iluminarBienvenidos {
+  from {
+    background-color: rgba(68, 68, 127, 0.497);
+  }
+  to {
+    background-color: rgba(84, 86, 135, 0.18);
+  }
+}
+/*# sourceMappingURL=main.css.map */
