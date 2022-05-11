@@ -1,0 +1,30 @@
+index.html 
+
+Title: "ROTTERDAM DEVOTO"
+Description: "Más que un bar, un espacio para crear momentos y disfrutar con amigos"
+Keywords: "cervecería, craft bar, lugar de encuentro, música, shows, diversión, festejos, amigos, familia, comida, tragos, bienvenidos"
+
+menu.html
+
+Title: "MENÚ DE ROTTERDAM DEVOTO"
+Description: "Carta de comidas, bebidas, tragos y coctails"
+Keywords: "cerveceria, craft bar, menú ,bebidas, tragos, coctails, cervezas, vinos y espumantes, comida para compartir, tacos, pizzas, papas, hamburguesas, postres"
+
+contacto.html
+
+Title: "CONTACTO"
+Description: "Formulario de contacto para poder comunicarte con nosotros y mapa para poder llegar"
+Keywords: "cervecería, craft bar, lugar de encuentro, música, diversión, comida, tragos, mapa, formulario de contacto"
+
+reservas.html
+
+Title: "RESERVAS"
+Description: "Formulario de contacto para reservar tu lugar y carrousel de fotos de Rotterdam"
+Keywords: "cervecería, craft bar, lugar de encuentro, música, diversión, comida, tragos, bienvenidos, formulario de reserva"
+
+contacto.html
+
+Title: "GALERIA DE FOTOS"
+Description: "Podés ver todas las fotos de Rotterdam, de sus tragos y su gente" 
+Keywords: "cervecería, craft bar, lugar de encuentro, música, fotos, amigos, diversión, comida, tragos, momentos, festejos"
+
