@@ -7,7 +7,7 @@
 	outline: none;
 }
 body{
-    font-family: 'Coda', cursive;   
+    font-family: 'Ruslan Display', cursive;   
 }
 
 header{
@@ -33,6 +33,15 @@ header{
 header .navbar-nav{
     margin-left: auto;
 }
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.fondo{
+    height: 150vh;
+    background-image: url(../imagenes/bg.jpg);
+}
 footer{
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +49,7 @@ footer{
     padding:5%;
     margin: 0%;
     background-color: $color-secundario;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Ruslan Display', cursive;
 }
 
 .lifooter {
@@ -77,5 +86,139 @@ to {background-color: $color-iluminacion2;}
 }
 .reservaext{
 @extend .menuext;
+
+}
+
+@media only screen and (max-width:1024px){
+    .fondo{
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header{
+        display: grid;     
+        grid-template-columns: 1fr 2fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .barraNavegacion__li {
+        font-size: 2.438rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+    }
+
+    .footer{
+        padding:1.25rem;
+        justify-content: center;
+
+    }
+    .direccionHorario {  
+        text-align: center;
+        
+    }
+
+    .pDireccion{
+        text-align: center;
+    }
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2 15rem) ;}
+    
+}  
+
+@media only screen and (max-width:768px){
+    .header{
+    
+        display: grid;     
+        grid-template-columns: 1fr 3fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer{
+        padding: 1.25rem;
+        justify-content: center;
+
+    }
+    .barraNavegacion__li {
+        font-size: 1.938rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+        
+    }
+    .fondo{
+        background-position: center; 
+        height: 45.624rem;
+    }
+    .direccionHorario {  
+        font-size:1.313rem;
+        width: 12.5rem;
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .galeriaimg{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:repeat(3 2fr);   
+        }
+}
+
+
+
+  
+@media only screen and (max-width:480px){
+    .fondo{
+        background-position: center; 
+        
+    }   
+  
+    img.logoGeneral{
+        width:8.125rem;
+        height:8.125rem;
+    }
+    .barraNavegacion{
+        margin-right: 0.75rem;
+    }
+    .barraNavegacion__li {
+        font-size: 1.313rem;
+        padding: 0.188rem;
+        margin: 0.188rem;
+        display: block;
+    }
+    .bienvenidos{
+        font-size: 2.125rem;
+        margin-top: 1rem;
+    
+    }
+    .footer{
+        flex-direction: column;        
+    }
+    .direccionHorario {  
+        font-size: 0.938rem;
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .pDireccion{
+        display: block;
+        text-align: center;
+    }
+
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3 2fr);
+        padding-left: 20px;
+    }
+    .carousel-inner{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 15rem;
+    }
+
+ 
 
 }

@@ -1,0 +1,20 @@
+
+.contenedorCarrousel{
+    background-color:rgba(68, 68, 127, 0.497) ;
+}
+     
+.carousel__div{
+    display: flex;
+    justify-content: center;
+ }
+ .slide{
+     display: flex;
+     justify-content: center;
+     width: 50%;
+     
+ }
+ .slide img{
+    background-size:cover;
+     width: 100vh;
+ }
+
