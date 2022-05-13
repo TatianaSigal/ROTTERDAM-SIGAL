@@ -7,18 +7,14 @@
 	outline: none;
 }
 body{
-    font-family: 'Coda', cursive;
-   
-    
+    font-family: 'Coda', cursive;   
 }
 
 header{
     background-color:$color-principal;
-    
     z-index: 50;
 }
     
-
 .logoGeneral{
     height: 12.5rem;
     width: 12.5rem;
@@ -62,18 +58,16 @@ footer{
 .lifooter img{
      width: 3.125rem;
 }
+
 .contactate{
     font-family: 'Ruslan Display', cursive;
     color: rgb(43, 56, 66);
-
     background-color:rgba(50, 50, 83, 0.322);
     animation-name: iluminarcontactate;
     animation-duration:4s;
     animation-iteration-count: infinite;
- 
 }
   
-
 @keyframes iluminarcontactate {
 from {background-color: $color-iluminacion1;}
 to {background-color: $color-iluminacion2;}

@@ -103,13 +103,9 @@ footer{
 
     section{
     
-    background-image: url(./imagenes/img\ backround.jpg)
+    background-image: url(./imagenes/img\ backround.jpg);
     }
-    .ratio-4x3 {
-        @include media-breakpoint-up(md) {
-          --bs-aspect-ratio: 50%; // 2x1
-        }
-      }
+   
       .contactate{
         font-family: 'Ruslan Display', cursive;
         color: rgb(43, 56, 66);
