@@ -4,11 +4,17 @@ $color-iluminacion1:rgba(68, 68, 127, 0.497);
 $color-iluminacion2:rgba(84, 86, 135, 0.18);
 
 /*MAPS*/
+
 $tamanio-tipografia:(
     titulos: 24px,
     subtitulos:20px,
     letra-chica:14px,
-)
+);
+
 /* EXTEND*/
 
+@mixin flex-end {
+    align-items:flex-end;
+    justify-content: flex-end;
+}
 

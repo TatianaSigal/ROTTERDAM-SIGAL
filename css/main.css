@@ -49,8 +49,8 @@ footer {
 
 .lifooter {
   display: flex;
-  align-items: flex-end;
   list-style: none;
+  align-items: flex-end;
   justify-content: flex-end;
 }
 
@@ -79,6 +79,10 @@ footer {
   to {
     background-color: rgba(84, 86, 135, 0.18);
   }
+}
+
+.menuext, .reservaext {
+  background-color: red;
 }
 
 .bienvenidos {
