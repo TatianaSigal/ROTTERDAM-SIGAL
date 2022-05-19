@@ -91,10 +91,6 @@ footer {
   }
 }
 
-.menuext, .reservaext {
-  background-color: red;
-}
-
 @media only screen and (max-width: 1024px) {
   .fondo {
     background-position: center;
