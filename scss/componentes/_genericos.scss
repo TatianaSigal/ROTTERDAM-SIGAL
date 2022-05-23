@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color:$color-principal;
+   background-image: $background-principal;
     z-index: 50;
 }
     
@@ -26,7 +26,7 @@ header{
 }
     
 .nav-link{
-    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    background-image: linear-gradient( rgb(101, 101, 89) ,$color-iluminacion3);
     font-size:map-get($tamanio-tipografia,subtitulos);     
 }
         
@@ -48,8 +48,9 @@ footer{
     align-items: center;
     padding:5%;
     margin: 0%;
-    background-color: $color-secundario;
+    background-image: $background-principal;
     font-family:'Ruslan Display', cursive;
+    color:$color-iluminacion3
 }
 
 .lifooter {

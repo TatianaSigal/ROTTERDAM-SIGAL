@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #373781;
+  background-image: url(../../imagenes/rotter5.jpg);
   z-index: 50;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .nav-link {
-  background-image: linear-gradient(#656559, rgba(38, 25, 86, 0.361));
+  background-image: linear-gradient(#656559, rgba(215, 215, 240, 0.779));
   font-size: 20px;
 }
 
@@ -53,8 +53,9 @@ footer {
   align-items: center;
   padding: 5%;
   margin: 0%;
-  background-color: rgba(71, 58, 6, 0.736);
+  background-image: url(../../imagenes/rotter5.jpg);
   font-family: 'Ruslan Display', cursive;
+  color: rgba(215, 215, 240, 0.779);
 }
 
 .lifooter {
