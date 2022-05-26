@@ -29,8 +29,12 @@ header {
 }
 
 .nav-link {
-  background-image: linear-gradient(#656559, rgba(215, 215, 240, 0.779));
+  background-image: linear-gradient(#81814e, rgba(215, 215, 240, 0.779));
   font-size: 20px;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
 }
 
 header .navbar-nav {
@@ -42,9 +46,27 @@ main {
   justify-content: center;
 }
 
+.navbar-toggler {
+  background-color: rgba(240, 248, 255, 0.434);
+}
+
 .fondo {
   height: 150vh;
-  background-image: url(../imagenes/bg.jpg);
+}
+
+.contactate {
+  animation-name: iluminarcontactate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes iluminarcontactate {
+  from {
+    background-color: rgba(129, 129, 78, 0.73);
+  }
+  to {
+    background-color: rgba(215, 215, 240, 0.779);
+  }
 }
 
 footer {
@@ -53,6 +75,7 @@ footer {
   align-items: center;
   padding: 5%;
   margin: 0%;
+  margin-top: 0.5%;
   background-image: url(../../imagenes/rotter5.jpg);
   font-family: 'Ruslan Display', cursive;
   color: rgba(215, 215, 240, 0.779);
@@ -70,26 +93,22 @@ footer {
   width: 3.125rem;
 }
 
+.lifooter a:hover img {
+  transform: translateY(-1.25rem);
+}
+
 .lifooter img {
   width: 3.125rem;
 }
 
-.contactate {
-  font-family: 'Ruslan Display', cursive;
-  color: #2b3842;
-  background-color: rgba(50, 50, 83, 0.322);
-  animation-name: iluminarcontactate;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+.pDireccion {
+  font-size: 25px;
+  color: white;
 }
 
-@keyframes iluminarcontactate {
-  from {
-    background-color: rgba(68, 68, 127, 0.497);
-  }
-  to {
-    background-color: rgba(84, 86, 135, 0.18);
-  }
+.pHorario {
+  font-size: 25px;
+  color: white;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -207,51 +226,31 @@ footer {
   }
 }
 
-.bienvenidos {
-  font-size: 400%;
-  font-family: 'Ruslan Display', cursive;
-  color: aliceblue;
+.fondoindex {
+  background-image: url(../../imagenes/rotter6.jpg);
+}
+
+.textnosotros {
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 30%;
-  background-color: rgba(50, 50, 83, 0.322);
-  animation-name: iluminarBienvenidos;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  color: #e3efef;
 }
 
-@keyframes iluminarBienvenidos {
-  from {
-    background-color: rgba(68, 68, 127, 0.497);
-  }
-  to {
-    background-color: rgba(84, 86, 135, 0.18);
-  }
+.contenedorinicio {
+  border-right: 5px double rgba(255, 255, 255, 0.411);
 }
 
-section {
+.carrousel_inicio {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
   background-image: url(../../imagenes/bg.jpg);
 }
 
-.contactate {
-  font-family: 'Ruslan Display', cursive;
-  color: #2b3842;
-  background-color: rgba(50, 50, 83, 0.322);
-  animation-name: iluminarcontactate;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
 .form-group {
-  color: aliceblue;
-}
-
-@keyframes iluminarcontactate {
-  from {
-    background-color: rgba(68, 68, 127, 0.497);
-  }
-  to {
-    background-color: rgba(84, 86, 135, 0.18);
-  }
+  color: #9bac63;
 }
 
 .galeriaimg {
@@ -274,7 +273,7 @@ main img {
   width: 100%;
   height: 100vw;
   padding: 1.25rem;
-  background-color: rgba(68, 68, 127, 0.497);
+  background-image: url(../../imagenes/galeria2.jpg);
 }
 
 .menu {
@@ -285,8 +284,12 @@ main img {
   position: relative;
 }
 
+section {
+  background-image: url(../../imagenes/rotter5.jpg);
+}
+
 .contenedorCarrousel {
-  background-color: rgba(68, 68, 127, 0.497);
+  background-color: rgba(76, 70, 70, 0.617);
 }
 
 .carousel__div {

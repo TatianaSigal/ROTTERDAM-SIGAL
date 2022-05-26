@@ -25,11 +25,16 @@ header{
     position:relative;
 }
     
-.nav-link{
-    background-image: linear-gradient( rgb(101, 101, 89) ,$color-iluminacion3);
+.nav-link {
+
+    background-image: linear-gradient( rgb(129, 129, 78) ,$color-iluminacion3);
     font-size:map-get($tamanio-tipografia,subtitulos);     
+&:hover{
+    transform: scale(1.05);
 }
-        
+}
+
+     
 header .navbar-nav{
     margin-left: auto;
 }
@@ -37,10 +42,22 @@ main{
     display:flex;
     justify-content:center;
 }
+.navbar-toggler{
+    background-color: rgba(240, 248, 255, 0.434);
+}
 
 .fondo{
     height: 150vh;
-    background-image: url(../imagenes/bg.jpg);
+}
+.contactate{
+    animation-name: iluminarcontactate;
+    animation-duration:3s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes iluminarcontactate {
+from {background-color: rgba(129, 129, 78, 0.73);}
+to {background-color: $color-iluminacion3;}
 }
 footer{
     display: flex;
@@ -48,6 +65,7 @@ footer{
     align-items: center;
     padding:5%;
     margin: 0%;
+    margin-top: 0.5%;
     background-image: $background-principal;
     font-family:'Ruslan Display', cursive;
     color:$color-iluminacion3
@@ -62,26 +80,23 @@ footer{
 .lifooter a {
     margin: 0.625rem;
     width: 3.125rem;
+    &:hover{
+        img{
+            transform: translateY(-1.25rem);}
+         }
 }
 
 .lifooter img{
      width: 3.125rem;
 }
-
-.contactate{
-    font-family: 'Ruslan Display', cursive;
-    color: rgb(43, 56, 66);
-    background-color:rgba(50, 50, 83, 0.322);
-    animation-name: iluminarcontactate;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
+.pDireccion{
+    font-size: 25px;
+    color:white
 }
-  
-@keyframes iluminarcontactate {
-from {background-color: $color-iluminacion1;}
-to {background-color: $color-iluminacion2;}
+.pHorario{
+    font-size: 25px;
+    color:white
 }
-
 
 
 @media only screen and (max-width:1024px){

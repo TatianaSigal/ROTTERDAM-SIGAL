@@ -1,0 +1,303 @@
+/*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+*/
+/*body
+body{
+    font-family: 'Coda', cursive;
+   
+    
+}
+*/
+/*header
+header{
+    background-color: rgba(55, 55, 129);
+    
+    z-index: 50;
+}
+    
+
+.logoGeneral{
+    height: 12.5rem;
+    width: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 80%;
+    background-size: 80% auto;
+    position:relative;
+}
+    
+.nav-link{
+    background-image: linear-gradient( rgb(101, 101, 89) , rgba(38, 25, 86, 0.361));
+    font-size:24px;     
+}
+        
+header .navbar-nav{
+    margin-left: auto;
+}
+*/
+/*
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.fondo{
+    height: 150vh;
+    background-image: url(./imagenes/img\ backround.jpg);
+}
+
+*/
+/*.bienvenidos{
+    
+    font-size: 400%;
+    font-family: 'Ruslan Display', cursive;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30%;
+    background-color:rgba(50, 50, 83, 0.322);
+    animation-name: iluminarBienvenidos;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes iluminarBienvenidos {
+    from {background-color: rgba(68, 68, 127, 0.497);}
+    to {background-color: rgba(84, 86, 135, 0.18);}
+}
+
+*/
+
+/* footer 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5%;
+    margin: 0%;
+    background-color: rgba(71, 58, 6, 0.736);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lifooter {
+    display: flex;
+    align-items:flex-end;
+    list-style:none ;
+    justify-content: flex-end;
+}
+   
+.lifooter a {
+    margin: 0.625rem;
+    width: 3.125rem;
+}
+
+.lifooter img{
+     width: 3.125rem;
+}
+*/
+     
+ /*contacto
+ 
+
+    section{
+    
+    background-image: url(./imagenes/img\ backround.jpg);
+    }
+
+*/
+/* reservas*/
+.contenedorCarrousel{
+    background-color:rgba(68, 68, 127, 0.497) ;
+}
+     
+.carousel__div{
+    display: flex;
+    justify-content: center;
+ }
+ .slide{
+     display: flex;
+     justify-content: center;
+     width: 50%;
+     
+ }
+ .slide img{
+    background-size:cover;
+     width: 100vh;
+ }
+
+
+/*galeriax
+
+.galeriaimg {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(2 15rem) ;
+gap: 1rem;
+align-items: center;
+background-image: url(./imagenes/img\ galeria\ 2.jpg) ;
+width: 100% ;
+margin: 0;
+}
+     
+.foto{
+    width: 25rem;
+    height: 35rem;
+}
+
+*/
+     
+/*menu
+main img {
+    width:100%;
+    height: 100vw;
+    padding: 1.25rem;
+    background-color:rgba(68, 68, 127, 0.497) ;
+}
+.menu{
+    overflow-x: scroll;
+    height: 31.25rem;
+    width: 31.25rem;
+    display: inline;
+    position: relative;
+    
+}
+
+*/
+/*
+@media only screen and (max-width:1024px){
+    .fondo{
+        background-position: center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header{
+        display: grid;     
+        grid-template-columns: 1fr 2fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .barraNavegacion__li {
+        font-size: 2.438rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+    }
+
+    .footer{
+        padding:1.25rem;
+        justify-content: center;
+
+    }
+    .direccionHorario {  
+        text-align: center;
+        
+    }
+
+    .pDireccion{
+        text-align: center;
+    }
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2 15rem) ;}
+    
+}  
+
+@media only screen and (max-width:768px){
+    .header{
+    
+        display: grid;     
+        grid-template-columns: 1fr 3fr;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer{
+        padding: 1.25rem;
+        justify-content: center;
+
+    }
+    .barraNavegacion__li {
+        font-size: 1.938rem;
+        padding: 0.063rem;
+        margin: 0.125rem;
+        
+    }
+    .fondo{
+        background-position: center; 
+        height: 45.624rem;
+    }
+    .direccionHorario {  
+        font-size:1.313rem;
+        width: 12.5rem;
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .galeriaimg{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:repeat(3 2fr);   
+        }
+}
+
+
+
+  
+@media only screen and (max-width:480px){
+    .fondo{
+        background-position: center; 
+        
+    }   
+  
+    img.logoGeneral{
+        width:8.125rem;
+        height:8.125rem;
+    }
+    .barraNavegacion{
+        margin-right: 0.75rem;
+    }
+    .barraNavegacion__li {
+        font-size: 1.313rem;
+        padding: 0.188rem;
+        margin: 0.188rem;
+        display: block;
+    }
+    .bienvenidos{
+        font-size: 2.125rem;
+        margin-top: 1rem;
+    
+    }
+    .footer{
+        flex-direction: column;        
+    }
+    .direccionHorario {  
+        font-size: 0.938rem;
+        text-align: center;
+        margin: 0.625rem;  
+    }
+
+    .pDireccion{
+        display: block;
+        text-align: center;
+    }
+
+    .galeriaimg{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3 2fr);
+        padding-left: 20px;
+    }
+    .carousel-inner{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 15rem;
+    }
+
+ 
+
+}*/
