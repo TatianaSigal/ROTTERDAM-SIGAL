@@ -24,7 +24,7 @@ header{
 }
     
 .nav-link {
-    font-family: 'Lobster', cursive;
+font-family: 'Lobster', cursive;
     background-image: linear-gradient( rgb(129, 129, 78) ,$color-iluminacion3);
     font-size:map-get($tamanio-tipografia,subtitulos);     
 &:hover{
@@ -87,13 +87,17 @@ footer{
 .lifooter img{
      width: 3.125rem;
 }
+.direccionHorario{
+    padding-right: 40%;
+}
 .pDireccion{
     font-size: 25px;
-    color:white
+    color:white;
+    
 }
 .pHorario{
     font-size: 25px;
-    color:white
+    color:white;
 }
 
 
