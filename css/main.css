@@ -9,12 +9,8 @@
   outline: none;
 }
 
-body {
-  font-family: 'Ruslan Display', cursive;
-}
-
 header {
-  background-image: url(../../imagenes/rotter5.jpg);
+  background-image: url(../imagenes/rotter5.jpg);
   z-index: 50;
 }
 
@@ -29,6 +25,7 @@ header {
 }
 
 .nav-link {
+  font-family: 'Lobster', cursive;
   background-image: linear-gradient(#81814e, rgba(215, 215, 240, 0.779));
   font-size: 20px;
 }
@@ -76,8 +73,8 @@ footer {
   padding: 5%;
   margin: 0%;
   margin-top: 0.5%;
-  background-image: url(../../imagenes/rotter5.jpg);
-  font-family: 'Ruslan Display', cursive;
+  background-image: url(../imagenes/rotter5.jpg);
+  font-family: 'Dancing Script', cursive;
   color: rgba(215, 215, 240, 0.779);
 }
 
@@ -227,11 +224,12 @@ footer {
 }
 
 .fondoindex {
-  background-image: url(../imagenes/rotter6.jpg);
+  background-image: url("../imagenes/rotter6.jpg");
 }
 
 .textnosotros {
   font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   color: #e3efef;
 }
@@ -246,7 +244,7 @@ footer {
 }
 
 .section {
-  background-image: url(../../imagenes/bg.jpg);
+  background-image: url(../imagenes/bg.jpg);
 }
 
 .form-group {
@@ -259,7 +257,7 @@ footer {
   grid-template-rows: repeat(2 15rem);
   gap: 1rem;
   align-items: center;
-  background-image: url(../../imagenes/galeria2.jpg);
+  background-image: url(../imagenes/galeria2.jpg);
   width: 100%;
   margin: 0;
 }
@@ -273,7 +271,7 @@ main img {
   width: 100%;
   height: 100vw;
   padding: 1.25rem;
-  background-image: url(../../imagenes/galeria2.jpg);
+  background-image: url(../imagenes/galeria2.jpg);
 }
 
 .menu {
@@ -285,7 +283,7 @@ main img {
 }
 
 section {
-  background-image: url(../../imagenes/rotter5.jpg);
+  background-image: url(../imagenes/rotter5.jpg);
 }
 
 .contenedorCarrousel {
