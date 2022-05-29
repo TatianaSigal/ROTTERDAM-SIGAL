@@ -11,6 +11,12 @@
     }
          
     .foto{
-        width:25rem;
-        height:35rem;
+        width:100%;
+        height:600px;
+    }
+    .galeriaimg img:hover {
+       border: 5px solid $color-iluminacion3;
+    }
+    .galeriaimg{
+        padding: 25px;
     }
