@@ -95,6 +95,10 @@ section {
   width: 100vh;
 }
 
+.tituloColum {
+  font-family: 'Lobster', cursive;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -150,6 +154,7 @@ main {
   animation-name: iluminarcontactate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  font-family: 'Lobster', cursive;
 }
 
 @keyframes iluminarcontactate {
