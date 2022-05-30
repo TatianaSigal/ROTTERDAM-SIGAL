@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.row {
+  margin-left: 0.2rem;
+}
+
 .section {
   background-image: url(../imagenes/bg.jpg);
 }
@@ -312,9 +316,10 @@ footer {
     padding-left: 20px;
   }
   .carousel-inner {
-    width: 150px;
-    height: 100px;
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
+  }
+  .slide {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
