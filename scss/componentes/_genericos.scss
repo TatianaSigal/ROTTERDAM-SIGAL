@@ -179,8 +179,8 @@ border-right: inherit;}
     .galeriaimg{
             display: grid;
             grid-template-columns: 1fr;
-               
         }
+        
 }
 
 
@@ -235,6 +235,11 @@ border-right: inherit;}
     }
     .slide{
         width: 100%;
+    }
+    .foto{
+        height: auto;
+        width: 100%;
+        
     }
 
  

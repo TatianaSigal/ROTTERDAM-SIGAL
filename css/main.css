@@ -326,5 +326,9 @@ footer {
   .slide {
     width: 100%;
   }
+  .foto {
+    height: auto;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
